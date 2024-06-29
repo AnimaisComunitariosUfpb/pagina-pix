@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css">
+    <link rel="stylesheet" href="./fonts.css">
+    <link rel="stylesheet" href="./media.css">
+    <title>Copiar Chave PIX</title>
+</head>
+<body>
+    <div class="container">
+        <div class="circle">
+            <img src="./imagens/WhatsApp Image 2023-11-20 at 13.14.26.jpg" alt="logo">
+          </div>
+        <h2>Colabore com o projeto!</h2>
+        <p>Utilize a chave abaixo para realizar sua doação:</p>
+        <input type="text" value="animaiscomunitariosufpb@gmail.com" id="chavePix" readonly> <br>
+        <button onclick="copiarChave()">Copiar</button>
+    </div>
+
+    <script>
+        function copiarChave() {
+            var chavePix = document.getElementById("chavePix");
+            chavePix.select();
+            chavePix.setSelectionRange(0, 99999); 
+
+            document.execCommand("copy");
+
+            alert("🐱 Chave Pix copiada para a área de transferência: " + chavePix.value);
+        }
+    </script>
+</body>
+</html>
