@@ -1,20 +1,37 @@
 @media (max-width: 768px) {
-    .container {
-      width: 90%;
-      height: auto;
-    }
-    p{
-        position: relative;
-        top: 20px;
-    }
-  
-    input {
-      width: 70%;
-    }
-  
-    button {
-      width: 20%;
-    margin-bottom: 20px;
-    }
+  .container {
+    width: 90%;
+    height: 65%; 
   }
+
+  .circle {
+    top: 2em; 
+    width: 6em;
+    height: 6em;
+  }
+
+  h2 {
+    top: 5em;
+    margin-top: 1em; 
+  }
+
+  p {
+    top: 7em;
+  }
+
+  input {
+    top: 9em;
+    width: 70%;
+  }
+
+  button {
+    width: 20%;
+    top: 11em;
+    margin-bottom: 20px;
+  }
+
+  .logos {
+    top: 9em; 
+  }
+}
   
