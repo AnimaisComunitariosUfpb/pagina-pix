@@ -1,7 +1,7 @@
 @media (max-width: 768px) {
   .container {
-    width: 90%;
-    height: 65%; 
+    width: 20em;
+    height: 30em; 
   }
 
   .circle {
@@ -32,7 +32,8 @@
 
 
   .logos {
-    top: 9em; 
+  position: relative;
+  top: 10em;
   }
 }
   
