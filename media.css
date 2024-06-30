@@ -18,17 +18,18 @@
   p {
     top: 7em;
   }
+  
+  button {
+    width: 20%;
+    top: 11em;
+    margin-bottom: 20px;
+  }
 
   input {
     top: 9em;
     width: 70%;
   }
 
-  button {
-    width: 20%;
-    top: 11em;
-    margin-bottom: 20px;
-  }
 
   .logos {
     top: 9em; 
